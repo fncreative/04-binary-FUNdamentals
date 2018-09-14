@@ -1,7 +1,7 @@
 'use strict';
 
 const parseBitmap = module.exports = {};
-const transformJS = require('./transform.js');
+const transformjs = require('./transform');
 
 parseBitmap.parse = (buffer) => {
   const parsedBitmap = {};
@@ -10,10 +10,7 @@ parseBitmap.parse = (buffer) => {
   const COLOR_TABLE_OFFSET = 54;
   const COLOR_TABLE_SIZE = 1024;
   const PIXEL_OFFSET_BEG = 10;
-  //--------------------------------------------------------------------------
-  // READING INFORMATION FROM THE BINARY DATA
-  //--------------------------------------------------------------------------
-  //! Vinicio - 1 byte = 1 position in toString
+
   parsedBitmap.type = buffer.toString('utf-8', 0, 2);
   parsedBitmap.fileSizeInBytes = buffer.readInt32LE(FILE_SIZE_OFFSET);
   parsedBitmap.height = buffer.readInt32LE(HEIGHT_OFFSET);

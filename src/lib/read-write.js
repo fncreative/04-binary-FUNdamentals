@@ -4,8 +4,8 @@ const fs = require('fs');
 
 const fileHandler = module.exports = {};
 
-fileHandler.read = (filepath, callback) => {
-  return fs.readFile(filepath, (error, buffer) => {
+fileHandler.read = (filePath, callback) => {
+  return fs.readFile(filePath, (error, buffer) => {
     if (error) {
       throw new Error('something bad happened, the file was not read');
     }
