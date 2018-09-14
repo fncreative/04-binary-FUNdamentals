@@ -62,7 +62,7 @@ fs.readFile(`${__dirname}/assets/house.bmp`, (error, buffer) => {
     throw error;
   }
   const parsedBitmap = parseBitmap.parse(buffer);
-  filReader.write();
+  // filReader.write();
 });
 
 
