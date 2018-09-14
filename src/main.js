@@ -4,7 +4,9 @@ const parseBitmap = require('./lib/parse-bitmap');
 const readWrite = require('./lib/read-write');
 
 const handleTransform = (existingFile) => {
-  readWrite.read(existingFile, parseBitmap.parse);
+  readWrite.read(existingFile, (error, buffer) => {
+    const parsedBitmap = parseBitmap.parse();
+  });
 };
 
-handleTransform(`${__dirname}/assets/${process.argv[2]}`);
+handleTransform('/assets/house.bmp');
