@@ -2,19 +2,23 @@
 
 const fs = require('fs');
 
+const trans = require('./transform');
+
 const fileHandler = module.exports = {};
 
-fileHandler.read = (filePath, callback) => {
-  return fs.readFile(filePath, (error, buffer) => {
+fileHandler.read = (filePath, callback, transformType) => {
+  fs.readFile(`${__dirname}/../assets/house.bmp`, (error, buffer) => {
+    console.log(filePath);
     if (error) {
-      throw new Error('something bad happened, the file was not read');
+      return callback(error);
     }
     return callback(null, buffer);
   });
 };
 
-fileHandler.write = (newFilePath, buffer, callback) => {
-  return fs.writeFile(newFilePath, buffer, (error) => {
+fileHandler.write = (buffer, newFilePath, callback) => {
+    console.log('new file path', newFilePath);
+  fs.writeFile(`${__dirname}/../assets/house.bmp`, (error) => {
     if (error) {
       throw new Error('something else bad happened, I could not write the file');
     }
