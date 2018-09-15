@@ -2,7 +2,7 @@
 
 const transform = module.exports = {};
 
-transform.invert = (object, path, callback) => {
+transform.invert = (object, path, callback ) => {
   const startValue = object.COLOR_TABLE_OFFSET;
   const size = object.COLOR_TABLE_SIZE;
   for (let i = startValue; i < startValue + size; i++) {
