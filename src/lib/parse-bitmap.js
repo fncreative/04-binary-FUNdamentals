@@ -16,17 +16,6 @@ parseBitmap.parse = (error, buffer, transformType) => {
 
   return parsedBitmap;
 
-
-  parsedBitmap.invert = (object, path, callback) => {
-    const startValue = object.COLOR_TABLE_OFFSET;
-    const size = object.COLOR_TABLE_SIZE;
-    for (let i = startValue; i < startValue + size; i++) {
-      const transformValue = (255 - object.allData[i]).toString(16);
-      object.allData.write(transformValue, i, 'hex');
-    }
-    callback(object.allData, path);
-  };
-
   // parsedBitmap.fileSizeInBytes = buffer.readInt32LE(parsedBitmap.FILE_SIZE_OFFSET);
   // parsedBitmap.height = buffer.readInt32LE(parsedBitmap.HEIGHT_OFFSET);
   // parsedBitmap.colorTable = buffer.slice(parsedBitmap.COLOR_TABLE_OFFSET,
@@ -38,4 +27,13 @@ parseBitmap.parse = (error, buffer, transformType) => {
   if (transformType === 'invert') {
     transform.invert(parsedBitmap, newFilePath, fileHandler.write);
   }
+};
+parsedBitmap.invert = (object, path, callback) => {
+  const startValue = object.COLOR_TABLE_OFFSET;
+  const size = object.COLOR_TABLE_SIZE;
+  for (let i = startValue; i < startValue + size; i++) {
+    const transformValue = (255 - object.allData[i]).toString(16);
+    object.allData.write(transformValue, i, 'hex');
+  }
+  callback(object.allData, path);
 };

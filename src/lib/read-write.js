@@ -2,19 +2,16 @@
 
 const fs = require('fs');
 
-const trans = require('./transform');
-
 const fileHandler = module.exports = {};
 
 fileHandler.read = (filePath, callback, transformType) => {
   fs.readFile(`${__dirname}/../assets/house.bmp`, (error, buffer) => {
-    console.log(filePath);
+
     if (error) {
       return callback(error);
     }
     return callback(null, buffer);
   });
-};
 
 fileHandler.write = (buffer, newFilePath, callback) => {
     console.log('new file path', newFilePath);
@@ -24,4 +21,6 @@ fileHandler.write = (buffer, newFilePath, callback) => {
     }
     return callback();
   });
+
+
 };
