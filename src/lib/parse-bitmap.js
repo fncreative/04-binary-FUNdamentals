@@ -1,7 +1,6 @@
 'use strict';
 
 const parseBitmap = module.exports = {};
-const transformjs = require('./transform');
 
 parseBitmap.parse = (buffer) => {
   const parsedBitmap = {};
@@ -17,3 +16,4 @@ parseBitmap.parse = (buffer) => {
   parsedBitmap.colorTable = buffer.slice(COLOR_TABLE_OFFSET, COLOR_TABLE_SIZE);
   parsedBitmap.pixelTable = buffer.readInt32LE(PIXEL_OFFSET_BEG);
 };
+parseBitmap.parse(`${__dirname}/../assets/house.bmp`);

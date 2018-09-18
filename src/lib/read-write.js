@@ -1,6 +1,7 @@
 'use strict';
 
 const fs = require('fs');
+const parseBitmap = require('./parse-bitmap');
 
 const fileHandler = module.exports = {};
 
@@ -9,7 +10,8 @@ fileHandler.read = (filePath, callback) => {
     if (error) {
       throw new Error('something bad happened, the file was not read');
     }
-    return callback(null, buffer);
+    const parsedBitmap = parseBitmap.parse(buffer);
+    callback(fileHandler.write(parsedBitmap));
   });
 };
 
@@ -21,3 +23,12 @@ fileHandler.write = (newFilePath, buffer, callback) => {
     return callback();
   });
 };
+
+// fileHandler.read(`${__dirname}/../assets/house.bmp`, (error, buffer) => {
+//   if (error) {
+//     throw new Error('sometihng happened');
+//   }
+//   const parsedBitmap =
+//   console.log(buffer);
+//   return buffer;
+// });
