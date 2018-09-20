@@ -2,22 +2,24 @@
 
 const parseBitmap = require('./lib/parse-bitmap');
 const readWrite = require('./lib/read-write');
-const transfromData = require('./lib/transform.js');
+const grayColor = require('./lib/grayscale');
+const pic = ['/assests/house.bmp'];
 
-const handleTransform = (existingFile) => {
-  readWrite.read(existingFile, (error, buffer) => {
-    const parsedBitmap = parseBitmap.parse();
-  });
-};
 
-handleTransform('/assets/house.bmp');
+// const handleTransform = (existingFile) => {
+//   readWrite.read(existingFile, parseBitmap.parse);
+// };
 
-parsedBitmap.invert = (object, path, callback) => {
-  const startValue = object.COLOR_TABLE_OFFSET;
-  const size = object.COLOR_TABLE_SIZE;
-  for (let i = startValue; i < startValue + size; i++) {
-    const transformValue = (255 - object.allData[i]).toString(16);
-    object.allData.write(transformValue, i, 'hex');
+for(var i = 0; i < pic.length; i ++) {
+  readWrite(pic[i], (error, data)=> {
+    if (error) {
+      throw error;
+      data.invert();
+
+  readWrite(pic[i], (error,data) => {
+    if (error) {
+      throw error;
+      data.grayScale();
+    }
   }
-  callback(object.allData, path);
-};
+}

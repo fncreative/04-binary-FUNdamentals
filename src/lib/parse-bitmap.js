@@ -5,35 +5,26 @@ const fileHandler = require('./read-write');
 const parseBitmap = module.exports = {};
 // const transform = require('./transform');
 
-parseBitmap.parse = (error, buffer, transformType) => {
-  const parsedBitmap = {};
-  parsedBitmap.FILE_SIZE_OFFSET = 2;
-  parsedBitmap.HEIGHT_OFFSET = 22;
-  parsedBitmap.COLOR_TABLE_OFFSET = 54;
-  parsedBitmap.COLOR_TABLE_SIZE = 1024;
-  parsedBitmap.PIXEL_OFFSET_BEG = 10;
-  parsedBitmap.allData = buffer;
-
-  return parsedBitmap;
-
-  // parsedBitmap.fileSizeInBytes = buffer.readInt32LE(parsedBitmap.FILE_SIZE_OFFSET);
-  // parsedBitmap.height = buffer.readInt32LE(parsedBitmap.HEIGHT_OFFSET);
-  // parsedBitmap.colorTable = buffer.slice(parsedBitmap.COLOR_TABLE_OFFSET,
-  //   parsedBitmap.COLOR_TABLE_SIZE);
-  // parsedBitmap.pixelTable = buffer.readInt32LE(parsedBitmap.PIXEL_OFFSET_BEG);
-  const newFilePath = ('../assets/house2.bmp');
-  console.log('parse bitmap', parseBitmap);
-
-  if (transformType === 'invert') {
-    transform.invert(parsedBitmap, newFilePath, fileHandler.write);
+class parseBitmap {
+  constructor(buffer, object) {
+    this.FILE_SIZE_OFFSET = 2;
+    this.HEIGHT_OFFSET = 22;
+    this.COLOR_TABLE_OFFSET = 54;
+    this.COLOR_TABLE_SIZE = 1024;
+    this.PIXEL_OFFSET_BEG = 10;
+    this.allData = buffer;
+    this.object = object;
   }
-};
-parsedBitmap.invert = (object, path, callback) => {
-  const startValue = object.COLOR_TABLE_OFFSET;
-  const size = object.COLOR_TABLE_SIZE;
-  for (let i = startValue; i < startValue + size; i++) {
-    const transformValue = (255 - object.allData[i]).toString(16);
-    object.allData.write(transformValue, i, 'hex');
+
+  get photoData() {
+    return this.picData;
   }
-  callback(object.allData, path);
-};
+
+  picData() {
+    this.object.type = this.buffer.toString('utf-8', 0, 2);
+    this.object.fileSizeInBytes = this.buffer.readInt32LE(this.FILE_SIZE_OFFSET);
+    this.object.height = this.buffer.readInt32LE(this.HEIGHT_OFFSET);
+    this.object.colorTable = this.buffer.slice(this.COLOR_TABLE_OFFSET);
+    return this.object;
+  }
+}

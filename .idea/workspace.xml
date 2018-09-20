@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9b49d85-ec14-4624-a340-bf936400903c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lib/transform.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/04-binary-FUNdamentals.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/04-binary-FUNdamentals.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/parse-bitmap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/parse-bitmap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/read-write.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/read-write.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/transform.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/transform.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,42 +22,35 @@
     <session id="1332648934">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="bmp" value="1" />
-          <entry key="js" value="9" />
-          <entry key="json" value="1" />
-          <entry key="txt" value="1" />
+          <entry key="js" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="1" />
-          <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="9" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="JavaScript" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="ESLintLanguageService" value="4" />
+          <entry key="ESLintLanguageService" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="2590" />
+          <entry key="js" value="1327" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="2590" />
+          <entry key="JavaScript" value="1327" />
         </counts>
       </usages-collector>
     </session>
@@ -102,10 +96,17 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/main-demo.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="990">
               <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+>>>>>>> 38939340f0285aa1a079598620ad2d5679fefebe
             </state>
           </provider>
         </entry>
@@ -113,6 +114,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lib/parse-bitmap.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="420">
               <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
             </state>
@@ -124,34 +126,55 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
               <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+=======
+            <state relative-caret-position="456">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+>>>>>>> 38939340f0285aa1a079598620ad2d5679fefebe
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
               <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/lib/transform.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+>>>>>>> 38939340f0285aa1a079598620ad2d5679fefebe
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/lib/transform.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/lib/read-write.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+>>>>>>> 38939340f0285aa1a079598620ad2d5679fefebe
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+<<<<<<< HEAD
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>assets/</find>
     </findStrings>
+=======
+>>>>>>> 38939340f0285aa1a079598620ad2d5679fefebe
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -159,11 +182,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/src/main-demo.js" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/src/lib/transform.js" />
         <option value="$PROJECT_DIR$/src/lib/parse-bitmap.js" />
         <option value="$PROJECT_DIR$/src/lib/read-write.js" />
+=======
+        <option value="$PROJECT_DIR$/src/lib/read-write.js" />
+        <option value="$PROJECT_DIR$/src/lib/transform.js" />
+        <option value="$PROJECT_DIR$/src/lib/parse-bitmap.js" />
+>>>>>>> 38939340f0285aa1a079598620ad2d5679fefebe
       </list>
     </option>
   </component>
@@ -236,23 +266,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.6.0" />
     <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.jscs" value="true" />
-    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.jscs" value="project" />
-    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
-    <property name="node.js.selected.package.jscs" value="" />
-    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/lib" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -266,20 +285,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.main.js">
+  <component name="RunManager">
     <configuration name="main-demo.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="main-demo.js" working-dir="$PROJECT_DIR$/src">
       <method v="2" />
     </configuration>
-    <configuration name="main.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="main.js" working-dir="$PROJECT_DIR$/src">
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Node.js.main-demo.js" />
-      <item itemvalue="Node.js.main.js" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.main.js" />
         <item itemvalue="Node.js.main-demo.js" />
       </list>
     </recent_temporary>
@@ -298,39 +309,26 @@
       <workItem from="1536880565101" duration="5439000" />
       <workItem from="1536955839261" duration="301000" />
       <workItem from="1536956637399" duration="159000" />
-      <workItem from="1536956823500" duration="1006000" />
-      <workItem from="1536957870615" duration="9418000" />
+      <workItem from="1536956823500" duration="594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="21927000" />
+=======
+    <option name="totallyTimeSpent" value="8902000" />
+>>>>>>> 38939340f0285aa1a079598620ad2d5679fefebe
   </component>
   <component name="ToolWindowManager">
     <frame x="96" y="23" width="1280" height="716" extended-state="0" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49666667" visible="true" weight="0.2494043" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" sideWeight="0.50333333" side_tool="true" weight="0.2494043" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32852563" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.518851" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
+=======
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49666667" visible="true" weight="0.16535018" />
+>>>>>>> 38939340f0285aa1a079598620ad2d5679fefebe
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.50333333" side_tool="true" weight="0.2494043" />
@@ -348,6 +346,26 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.384" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,6 +374,7 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+<<<<<<< HEAD
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -372,6 +391,8 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+=======
+>>>>>>> 38939340f0285aa1a079598620ad2d5679fefebe
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../03-async-and-callbacks/lib/reader.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -381,20 +402,32 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/rotate.js" />
+<<<<<<< HEAD
     <entry file="file://$USER_HOME$/Downloads/transform.js" />
     <entry file="file://$PROJECT_DIR$/src/main-demo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main-demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1608">
+          <caret line="67" selection-start-line="64" selection-end-line="64" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/house.bmp">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+>>>>>>> 38939340f0285aa1a079598620ad2d5679fefebe
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/invert.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/assets/litany.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -405,11 +438,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+=======
+    <entry file="file://$USER_HOME$/Downloads/transform.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+>>>>>>> 38939340f0285aa1a079598620ad2d5679fefebe
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/transform.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="210">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
@@ -419,13 +459,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+=======
+        <state relative-caret-position="552">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/transform.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+>>>>>>> 38939340f0285aa1a079598620ad2d5679fefebe
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/parse-bitmap.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="420">
           <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+=======
+        <state relative-caret-position="456">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+>>>>>>> 38939340f0285aa1a079598620ad2d5679fefebe
         </state>
       </provider>
     </entry>
